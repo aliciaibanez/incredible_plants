@@ -23,4 +23,10 @@ public class Cultivo
     public void setHorasSol( int numeroHorasSol){
         horasSol = numeroHorasSol;
     }
+    
+    public void imprimirDetalles () {
+        System.out.println ("La altura es de: " + esSecano);
+        System.out.println ("El nombre es: " + horasSol);
+        System.out.println ("El tipo de planta es: " + tipoPlanta);
+    }
 } 
