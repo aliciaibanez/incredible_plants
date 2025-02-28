@@ -8,4 +8,17 @@
         nombre = "Cactus";
         Cultivo tipoCultivo = new Cultivo();
     }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Cultivo getTipoCultivo() {
+        return tipoCultivo;
+    }
+    
 }
