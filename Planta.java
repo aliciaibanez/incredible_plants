@@ -1,8 +1,8 @@
-    public class Planta {
+public class Planta {
     double altura;
     String nombre;
     Cultivo tipoCultivo;
-    
+
     public Planta () {
         altura = 1.6;
         nombre = "Cactus";
@@ -20,5 +20,16 @@
     public Cultivo getTipoCultivo() {
         return tipoCultivo;
     }
+
+    public void setNombre (String esNombre) {
+        nombre = esNombre;
+    }
+
+    public void setAltura (double esAltura) {
+        altura = esAltura;
+    }
     
+    public void setTipoCultivo(Cultivo esTipoCultivo) {
+        tipoCultivo = esTipoCultivo;
+    }
 }
