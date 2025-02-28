@@ -26,6 +26,6 @@ public class Cultivo
     
     public void imprimirDetalles () {
         System.out.println ("¿El cultivo es secano?: " + esSecano);
-        System.out.println ("El nombre es: " + horasSol);
+        System.out.println ("Las horas de sol son: " + horasSol);
     }
 } 

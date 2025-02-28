@@ -2,11 +2,10 @@ public class Planta {
     double altura;
     String nombre;
     Cultivo tipoCultivo;
-
     public Planta () {
         altura = 1.6;
         nombre = "Cactus";
-        Cultivo tipoCultivo = new Cultivo();
+        tipoCultivo = new Cultivo();
     }
 
     public double getAltura() {
@@ -36,7 +35,7 @@ public class Planta {
     public void imprimirDetalles(){
         System.out.println("La altura es: " + altura);
         System.out.println("El nombre es: " + nombre);
-        System.out.println("El tipo del cultivo es: " + tipoCultivo);
+        System.out.println("El tipo del cultivo es: " + getTipoCultivo());
 
     }
 }
