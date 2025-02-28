@@ -35,7 +35,8 @@ public class Planta {
     public void imprimirDetalles(){
         System.out.println("La altura es: " + altura);
         System.out.println("El nombre es: " + nombre);
-        System.out.println("El tipo del cultivo es: " + getTipoCultivo());
+        System.out.println("Los detalles del cultivo son los siguiente: " ) ;
+        tipoCultivo.imprimirDetalles();
 
     }
 }
